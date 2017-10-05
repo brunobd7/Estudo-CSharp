@@ -16,7 +16,8 @@ namespace Ex4Media
             public static void Main(string[] args)
             {
                 Console.WriteLine(Average(2, 1));
-                
+                Console.ReadKey();
+
             }
         }
     
