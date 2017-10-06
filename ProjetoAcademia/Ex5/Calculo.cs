@@ -16,7 +16,7 @@ namespace Ex5
 
             for (int aux = 0; aux <= prazo; aux++)
             {
-                FV = capitalInicial * (1 + taxaJuro) * aux;
+                FV = capitalInicial * ((1 + taxaJuro) * aux);
 
             }
 

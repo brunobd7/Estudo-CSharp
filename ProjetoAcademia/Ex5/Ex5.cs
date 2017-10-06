@@ -13,13 +13,13 @@ namespace Ex5
         static void Main(string[] args)
         {
             decimal capitalInicial = 10000; //PV
-            decimal taxaJuro = 3 / 100 * 10000; //i- TAXA DE JUROS
+            decimal taxaJuro = 3/100 ; //i- TAXA DE JUROS
             decimal prazo = 3; //n - PERIODOS DE CAPTALIZAÇÃO
             //decimal FV = 0; //MONTANTE
 
             Calculo calc = new Calculo();
 
-            calc.ObtenhaMontante(capitalInicial, taxaJuro, prazo);
+            calc.ObtenhaMontante(capitalInicial,taxaJuro,prazo);
 
         }
         
